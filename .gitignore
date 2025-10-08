@@ -1,0 +1,22 @@
+@"
+# Ambientes
+.venv/
+venv/
+env/
+__pycache__/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Dados grandes (ajuste se quiser manter sample)
+data/
+!data/README.md
+!data/sample/**
+
+# Segredos
+.env
+.env.*
+"@ | Out-File -Encoding utf8 .gitignore
+
